@@ -1,0 +1,45 @@
+.cardContainer {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.cardHeader{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardMiddle p {
+  font-size: 14px;
+  padding: 0 15px 20px;
+  text-align: justify;
+  color: #9a9999;
+}
+.cardContainer:hover {
+  box-shadow: rgba(13, 41, 68, 0.2) 0px 8px 24px;
+  transition: all 0.5s;
+}
+.cardFooter{
+    display: flex;
+    border-top: 1px solid #e7dede;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.cardFooter button {
+  all: unset;
+  background-color: rgba(239, 166, 32, 0.884);
+  padding:5px;
+  border-radius: 10px;
+  cursor: pointer;
+    font-size: 14px;
+
+}
+.cardFooter button:hover {
+  background-color: orange;
+}
+
+
+

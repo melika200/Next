@@ -1,0 +1,33 @@
+.contactContainer{
+    background-color: white;
+    margin: 20px 32px;
+    padding: 30px;
+}
+.contactContainer form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inputBox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px 16px;
+    border-radius: 50px;
+}
+
+.inputBox input{
+    padding:6px;
+}
+.contactBox{
+    display: flex;
+    flex-direction:row;
+}
+.contactBox svg{
+    margin:0 10px;
+}
+@media screen and (max-width: 800px){
+.inputBox{
+    width: 100%;
+}
+}

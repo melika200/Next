@@ -1,0 +1,35 @@
+.menu{
+    background-color: rgb(255, 255,255);
+    border-bottom: 1px solid rgb(228,228,228);
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+padding: 20px 15px;
+display: flex;
+align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #a1a0a0;
+}
+.menu ul li svg{
+    color: #787777;
+   
+}
+.menu ul li a:hover{
+    color: #545252;
+}
+@media screen and (max-width: 992px){
+
+    .menu{
+        display: none;
+    }
+ }
+ /* @media screen and (max-width: 992px) {
+    .menu {
+       display: none;
+    }
+ } */
